@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive To-Do Calendar App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <button class="sidebar-toggle" aria-label="Toggle menu">&#9776;</button>
+      <h1>To-Do Calendar</h1>
+      <img src="logo.png" alt="Logo" />
+      <div>
+        <span>Progress</span>
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <nav class="sidebar" id="sidebar">
+        <h2>Tasks</h2>
+        <ul class="task-list" id="taskList"></ul>
+        <button class="add-task-btn" id="addTaskBtn">+ Add Task</button>
+      </nav>
+      <section class="calendar">
+        <div class="calendar-header">
+          <button id="prevMonthBtn">&#8592;</button>
+          <span id="calendarMonth"></span>
+          <button id="nextMonthBtn">&#8594;</button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
+      </section>
+    </main>
+    <div class="modal-bg" id="modalBg">
+      <div class="modal">
+        <h2 id="modalTitle">Add Task</h2>
+        <form id="taskForm">
+          <input type="text" id="taskTitle" placeholder="Task title" required />
+          <select id="taskCategory">
+            <option value="work">Work</option>
+            <option value="personal">Personal</option>
+            <option value="urgent">Urgent</option>
+            <option value="college">College</option>
+          </select>
+          <input type="date" id="taskDueDate" required />
+          <select id="taskPriority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+          <div class="modal-actions">
+            <button type="submit" id="saveTaskBtn">Save</button>
+            <button type="button" class="cancel" id="cancelBtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>
