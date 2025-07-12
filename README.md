@@ -15,31 +15,31 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 
 ## 🧰 Tech Stack
 
-| Frontend   | Features                |
-|------------|--------------------------|
-| HTML5      | Semantic structure       |
-| CSS3       | Responsive layout, Flexbox, media queries |
-| JavaScript | DOM manipulation, LocalStorage, task handling |
+| Frontend   | Features                                           |
+|------------|----------------------------------------------------|
+| HTML5      | Semantic structure                                 |
+| CSS3       | Responsive layout, Flexbox, media queries          |
+| JavaScript | DOM manipulation, LocalStorage, task handling      |
 
 ---
 
 ## ✨ Features
 
-- 📅 **Interactive Calendar UI** – Click a date and view daily tasks
-- ✅ **Add/Delete Daily Tasks** – Manage your to-do list per day
-- 💾 **LocalStorage Integration** – Tasks persist even after browser refresh
-- 📱 **Responsive Design** – Fully functional across devices
-- 🧼 **Minimalist Layout** – Clean, distraction-free interface
-- ⚡ **High Performance** – Fast load and smooth experience
+- 📅 **Interactive Calendar UI** – Click a date and view daily tasks  
+- ✅ **Add/Delete Daily Tasks** – Manage your to-do list per day  
+- 💾 **LocalStorage Integration** – Tasks persist even after browser refresh  
+- 📱 **Responsive Design** – Fully functional across devices  
+- 🧼 **Minimalist Layout** – Clean, distraction-free interface  
+- ⚡ **High Performance** – Fast load and smooth experience  
 
 ---
 
 ## 🎯 Why Use This App?
 
-- Simplifies **daily planning**
-- Combines **calendar + to-do** in one place
-- Works **offline** with localStorage
-- Clean UI makes it ideal for **focus and productivity**
+- Simplifies **daily planning**  
+- Combines **calendar + to-do** in one place  
+- Works **offline** with localStorage  
+- Clean UI makes it ideal for **focus and productivity**  
 - Lightweight and no dependencies — **just open and use!**
 
 ---
@@ -63,33 +63,21 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 | **Best Practices**| 100  |
 | **SEO**          | 90    |
 
-✅ Optimized using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+✅ Audited using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ---
 
 ## 📁 Project Structure
 
-My_Calender/
-├── index.html ──home.html── home.css
-├── login.css      └── home.js
-
-
----
-
-## 🛠 Installation & Usage
-
-### 1. Clone the Repository
-
 ```bash
+My_Calender/
+├── index.html       # Main entry point
+├── home.html        # Home page after login
+├── home.css         # Styles for home/calendar
+├── login.css        # Login screen styles
+└── home.js          # Calendar and task logic
 git clone https://github.com/AadyaAgarwal01/My_Calender.git
 cd My_Calender
-2. Open in Browser
-Just open the index.html file in any modern browser. No setup or dependencies needed.
-
-⚠️ License & Permissions
-This project is closed-source and not licensed for reuse.
-You may not copy, use, modify, or distribute any part of this code or design without explicit permission from the author.
-
 👤 Author
 Aadya Agarwal
 📎 GitHub Profile
