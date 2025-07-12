@@ -70,9 +70,9 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 ## 📁 Project Structure
 
 My_Calender/
-├── index.html # Main structure
-├── home.css # Styling and layout
-└── script.js # Logic for calendar and tasks
+├── index.html ──home.html── home.css
+├── login.css      └── home.js
+
 
 ---
 
