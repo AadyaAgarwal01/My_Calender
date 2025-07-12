@@ -46,9 +46,9 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 
 ## 📷 App Preview
 
-<img width="100%" alt="App Preview 1" src="https://github.com/user-attachments/assets/fb0ef0fe-f278-4ea6-9501-947469c979c0" />
-<br />
 <img width="100%" alt="App Preview 2" src="https://github.com/user-attachments/assets/cd20a273-24b3-4ccb-be92-06e3523fd0c5" />
+<br />
+<img width="100%" alt="App Preview 1" src="https://github.com/user-attachments/assets/fb0ef0fe-f278-4ea6-9501-947469c979c0" />
 
 ---
 
