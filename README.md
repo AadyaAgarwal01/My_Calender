@@ -46,15 +46,15 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 
 ## 📷 App Preview
 
-<img width="100%" alt="App Preview 1" src="https://github.com/user-attachments/assets/3ef920ab-5bee-43da-81e5-f35752bd4e53" />
+<img width="100%" alt="App Preview 1" src="https://github.com/user-attachments/assets/fb0ef0fe-f278-4ea6-9501-947469c979c0" />
 <br />
-<img width="100%" alt="App Preview 2" src="https://github.com/user-attachments/assets/b4161990-d597-472a-85b2-be68dde49571" />
+<img width="100%" alt="App Preview 2" src="https://github.com/user-attachments/assets/cd20a273-24b3-4ccb-be92-06e3523fd0c5" />
 
 ---
 
 ## 📊 Lighthouse Report
 
-<img width="100%" alt="Lighthouse Report" src="https://github.com/user-attachments/assets/613564a8-64bd-41e3-bdf7-9720927fbc55" />
+<img width="100%" alt="Lighthouse Report" src="https://github.com/user-attachments/assets/43af0f18-7e85-4d4c-b98a-f7cdc658bf63" />
 
 | Category         | Score |
 |------------------|-------|
@@ -63,7 +63,7 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 | **Best Practices**| 100  |
 | **SEO**          | 90    |
 
-✅ Audited using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+✅ Optimized using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ---
 
@@ -71,13 +71,10 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 
 ```bash
 My_Calender/
-├── index.html       # Main entry point
-├── home.html        # Home page after login
-├── home.css         # Styles for home/calendar
-├── login.css        # Login screen styles
-└── home.js          # Calendar and task logic
+├── index.html       # Login page
+├── home.html        # Calendar & to-do interface
+├── home.css         # Styling for calendar view
+├── login.css        # Styling for login form
+└── home.js          # JavaScript for calendar + task logic
 git clone https://github.com/AadyaAgarwal01/My_Calender.git
 cd My_Calender
-👤 Author
-Aadya Agarwal
-📎 GitHub Profile
