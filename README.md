@@ -9,7 +9,7 @@ A responsive and interactive **To-Do Calendar App** built using modern web techn
 
 ## 🚀 Live Demo
 
-> 🔗 **[Coming Soon](#)** – Want help deploying to GitHub Pages or Surge? Let me know!
+> 🔗 **https://my-calender-psi.vercel.app/**
 
 ---
 
